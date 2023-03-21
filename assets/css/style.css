@@ -66,8 +66,12 @@ hr {
   flex-direction: column;
 }
 .left-image {
-  height: 55vh;
+  background: url(/assets/images/Lpic.jpg);
+  background-repeat: no-repeat;
+  height: 40vh;
   width: 100%;
+  background-size: 110%;
+  background-position: center;
 }
 .right {
   width: 40%;
@@ -75,18 +79,21 @@ hr {
   flex-direction: column;
 }
 .right-image {
-  height: 55vh;
+  background: url(/assets/images/Rpic.jpg);
+  background-repeat: no-repeat;
+  height: 40vh;
   width: 100%;
+  background-size: 110%;
+  background-position: center;
 }
 .overview {
-  display: flex;
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  align-items: start;
   font-size: 2.5rem;
-  justify-content: flex-start;
 }
 .meaning {
-  display: flex;
-  justify-content: flex-end;
-  /* flex-direction: row-reverse; */
+  align-self: end;
   font-weight: 250;
 }
 .c1 {
